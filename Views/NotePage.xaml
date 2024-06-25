@@ -14,10 +14,14 @@
                 HeightRequest="100" />
 
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
-            <Button Text="Save"
+            <Button 
+                    x:Name="JI-BTN"
+                    Text="Save"
                     Command="{Binding SaveCommand}"/>
 
-            <Button Grid.Column="1"
+            <Button 
+                    x:Name="JI-BTN2"
+                    Grid.Column="1"
                     Text="Delete"
                     Command="{Binding DeleteCommand}"/>
 
